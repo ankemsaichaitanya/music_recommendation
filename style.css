@@ -1,0 +1,122 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #2a2a4e);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 25px 10px;
+}
+
+header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1db954;
+}
+
+header p {
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.player-container {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 25px;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 30px;
+}
+
+.song-info {
+  text-align: center;
+}
+
+.song-info h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.song-info p {
+  margin: 5px 0 15px 0;
+  color: #bbb;
+  font-size: 14px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+button {
+  background: #1db954;
+  border: none;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #1ed760;
+  transform: scale(1.05);
+}
+
+audio {
+  width: 100%;
+  margin-top: 10px;
+  outline: none;
+}
+
+.recommendations {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 15px 20px;
+}
+
+.recommendations h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #1db954;
+}
+
+.recommendations ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recommendations li {
+  padding: 10px 15px;
+  margin: 8px 0;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.recommendations li:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  font-size: 14px;
+  padding: 15px;
+  color: #ccc;
+  opacity: 0.8;
+}

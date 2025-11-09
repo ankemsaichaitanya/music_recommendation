@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Streaming & Recommendation Service</title>
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎵 Music Streaming & Recommendation Service</h1>
+    <p>Frontend Demo | HTML, CSS & JavaScript | Skill Development Lab Project</p>
+  </header>
+
+  <div class="player-container">
+    <div class="song-info">
+      <h2 id="song-title">No Song Selected</h2>
+      <p id="song-artist"></p>
+    </div>
+
+    <div class="controls">
+      <button id="prev-btn">⏮ Prev</button>
+      <button id="play-btn">▶ Play</button>
+      <button id="next-btn">⏭ Next</button>
+    </div>
+
+    <audio id="audio-player" controls></audio>
+
+    <div class="recommendations">
+      <h3>Recommended Songs</h3>
+      <ul id="recommendation-list"></ul>
+    </div>
+  </div>
+
+  <footer>© 2025 Skill Development Lab | All Rights Reserved</footer>
+
+  <!-- Link JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
